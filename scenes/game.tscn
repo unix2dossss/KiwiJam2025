@@ -1496,3 +1496,10 @@ script = ExtResource("12_dinhu")
 [node name="Camera2D" type="Camera2D" parent="HBoxContainer/SubViewportContainer2/SubViewport2/Player2"]
 texture_filter = 1
 zoom = Vector2(4, 4)
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(4, 648)
+offset_left = 576.0
+offset_right = 580.0
+offset_bottom = 648.0
+color = Color(0, 0, 0, 1)
