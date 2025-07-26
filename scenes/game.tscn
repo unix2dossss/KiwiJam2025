@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://cwcvxhri2sow5"]
+[gd_scene load_steps=5 format=3 uid="uid://dx8j4gpd5pgkm"]
 
 [ext_resource type="Script" uid="uid://b4adc0rnatfnd" path="res://scripts/game.gd" id="1_kvpfn"]
 [ext_resource type="PackedScene" uid="uid://c0pjplktu16sa" path="res://scenes/player.tscn" id="1_uwrxv"]
+[ext_resource type="PackedScene" uid="uid://bh3pr2rk4gi3h" path="res://scenes/stringdrawer.tscn" id="2_lbhrr"]
 [ext_resource type="Script" uid="uid://bjbg14dxkin40" path="res://scripts/player2.gd" id="12_dinhu"]
 
 [node name="Game" type="Node2D"]
@@ -51,7 +52,12 @@ script = ExtResource("12_dinhu")
 texture_filter = 1
 zoom = Vector2(4, 4)
 
+[node name="StringDrawer" parent="." instance=ExtResource("2_lbhrr")]
+visible = false
+position = Vector2(73, 62)
+
 [node name="ColorRect" type="ColorRect" parent="."]
+z_index = 6
 custom_minimum_size = Vector2(4, 648)
 offset_left = 576.0
 offset_right = 580.0

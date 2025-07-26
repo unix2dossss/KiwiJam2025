@@ -18,6 +18,7 @@ var lovers_have_met = false
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	load_current_level()
+	load_level("res://levels/Level1.tscn")
 	var world = $HBoxContainer/SubViewportContainer/SubViewport.find_world_2d()
 	$HBoxContainer/SubViewportContainer2/SubViewport2.world_2d = world
 	
