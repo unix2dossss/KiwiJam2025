@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://ce27hr8kvlh8c"]
+
+[ext_resource type="PackedScene" uid="uid://c0l7rkxapffuv" path="res://levels/TileMap.tscn" id="1_b84ys"]
+
+[node name="Level1" type="Node2D"]
+
+[node name="TileMap" parent="." instance=ExtResource("1_b84ys")]
+
+[node name="Player1Spawn" type="Marker2D" parent="."]
+position = Vector2(-88, 53)
+
+[node name="Player2Spawn" type="Marker2D" parent="."]
+position = Vector2(856, 46)
