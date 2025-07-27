@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://b4adc0rnatfnd" path="res://scripts/game.gd" id="1_kvpfn"]
 [ext_resource type="PackedScene" uid="uid://c0pjplktu16sa" path="res://scenes/player.tscn" id="1_uwrxv"]
 [ext_resource type="PackedScene" uid="uid://bh3pr2rk4gi3h" path="res://scenes/stringdrawer.tscn" id="2_lbhrr"]
-[ext_resource type="Script" uid="uid://bjbg14dxkin40" path="res://scripts/player2.gd" id="12_dinhu"]
+[ext_resource type="PackedScene" uid="uid://dp5nowtpv127o" path="res://scenes/player2.tscn" id="3_lbhrr"]
 
 [node name="Game" type="Node2D"]
 script = ExtResource("1_kvpfn")
@@ -43,10 +43,8 @@ handle_input_locally = false
 size = Vector2i(576, 648)
 render_target_update_mode = 4
 
-[node name="Player2" parent="HBoxContainer/SubViewportContainer2/SubViewport2" instance=ExtResource("1_uwrxv")]
-texture_filter = 1
-position = Vector2(764, 60)
-script = ExtResource("12_dinhu")
+[node name="Player2" parent="HBoxContainer/SubViewportContainer2/SubViewport2" instance=ExtResource("3_lbhrr")]
+position = Vector2(580, 0)
 
 [node name="Camera2D" type="Camera2D" parent="HBoxContainer/SubViewportContainer2/SubViewport2/Player2"]
 texture_filter = 1

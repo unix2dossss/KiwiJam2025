@@ -17,6 +17,6 @@ layer_2/name = "Fore"
 position = Vector2(22, 573)
 
 [node name="Player2Spawn" type="Marker2D" parent="."]
-position = Vector2(550, 591)
+position = Vector2(546, 587)
 
 [node name="OceanLinePurple2" parent="." instance=ExtResource("2_32mhh")]
