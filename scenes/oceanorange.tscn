@@ -1,0 +1,79 @@
+[gd_scene load_steps=11 format=3 uid="uid://col3n5eiar5eo"]
+
+[ext_resource type="Texture2D" uid="uid://c201t4btvvrg7" path="res://assets/foreground_/foreground_.png" id="1_i61ym"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i61ym"]
+atlas = ExtResource("1_i61ym")
+region = Rect2(0, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4g3h0"]
+atlas = ExtResource("1_i61ym")
+region = Rect2(16, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mcgc2"]
+atlas = ExtResource("1_i61ym")
+region = Rect2(32, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r7npa"]
+atlas = ExtResource("1_i61ym")
+region = Rect2(48, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bigdx"]
+atlas = ExtResource("1_i61ym")
+region = Rect2(64, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_syhqj"]
+atlas = ExtResource("1_i61ym")
+region = Rect2(80, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_all53"]
+atlas = ExtResource("1_i61ym")
+region = Rect2(96, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hkya2"]
+atlas = ExtResource("1_i61ym")
+region = Rect2(112, 32, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_46w5d"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i61ym")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4g3h0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mcgc2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r7npa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bigdx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_syhqj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_all53")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hkya2")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="OceanOrange" type="Area2D"]
+texture_filter = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -8)
+sprite_frames = SubResource("SpriteFrames_46w5d")
+autoplay = "default"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+texture_filter = 1

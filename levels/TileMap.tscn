@@ -1,6 +1,7 @@
-[gd_scene load_steps=20 format=3 uid="uid://c0l7rkxapffuv"]
+[gd_scene load_steps=22 format=3 uid="uid://c0l7rkxapffuv"]
 
 [ext_resource type="Texture2D" uid="uid://u2ab0b7vapc6" path="res://assets/midground_/autumn_.png" id="1_xc6oe"]
+[ext_resource type="Texture2D" uid="uid://ha3wmbst8yqr" path="res://assets/background_/sky_.png" id="2_nel7s"]
 [ext_resource type="Texture2D" uid="uid://twj0igb5jwb" path="res://assets/midground_/desertDungeon_.png" id="3_nrkka"]
 [ext_resource type="Texture2D" uid="uid://cj4k7f6gkuu4i" path="res://assets/midground_/dungeon_.png" id="4_0mx6q"]
 [ext_resource type="Texture2D" uid="uid://b5o6j1intj3hs" path="res://assets/midground_/spring_.png" id="5_gcres"]
@@ -402,6 +403,37 @@ texture = ExtResource("1_xc6oe")
 4:19/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 5:19/0 = 0
 5:19/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1kxem"]
+texture = ExtResource("2_nel7s")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5newe"]
 texture = ExtResource("3_nrkka")
@@ -2503,9 +2535,10 @@ sources/6 = SubResource("TileSetAtlasSource_pl11u")
 sources/7 = SubResource("TileSetAtlasSource_bhx41")
 sources/8 = SubResource("TileSetAtlasSource_qnb83")
 sources/9 = SubResource("TileSetAtlasSource_nel7s")
+sources/10 = SubResource("TileSetAtlasSource_1kxem")
 
 [node name="TileMap" type="TileMap"]
 texture_filter = 1
+position = Vector2(244, 218)
 tile_set = SubResource("TileSet_sww3w")
 format = 2
-layer_0/tile_data = PackedInt32Array(262147, 589832, 0, 262148, 655368, 0, 262149, 720904, 0, 262150, 8, 0, 262151, 8, 0, 262152, 8, 0, 262153, 8, 0, 327679, 8, 0, 262144, 8, 0, 262145, 8, 0, 262146, 8, 0, 262155, 8, 0, 262154, 8, 0, 327678, 8, 0, 327677, 8, 0, 262156, 8, 0, 262185, 8, 0, 262186, 8, 0, 262187, 8, 0, 262188, 8, 0, 262189, 8, 0, 262190, 8, 0, 262191, 8, 0, 262192, 8, 0, 262193, 8, 0, 262194, 8, 0, 262195, 8, 0, 262196, 8, 0, 262197, 8, 0, 262198, 8, 0, 262157, 8, 0, 262158, 8, 0, 262159, 8, 0, 262160, 8, 0, 327676, 8, 0, 327675, 8, 0, 327674, 8, 0, 327673, 8, 0, 327672, 8, 0, 327671, 8, 0, 327670, 8, 0, 196628, 8, 0, 196629, 8, 0, 196630, 8, 0, 196631, 8, 0, 196632, 8, 0, 196633, 8, 0, 196634, 8, 0, 196635, 8, 0, 196636, 8, 0, 196637, 8, 0, 196638, 8, 0, 196639, 8, 0, 196640, 8, 0, 196641, 8, 0, 196642, 8, 0, 196643, 8, 0, 196644, 8, 0, 196645, 8, 0, 196646, 8, 0, 196647, 8, 0, 196648, 8, 0, 262163, 8, 0, 262162, 8, 0, 262161, 8, 0)

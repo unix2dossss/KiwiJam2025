@@ -54,7 +54,7 @@ func free_children(node: Node):
 func on_lovers_meet():
 	await get_tree().create_timer(2.0).timeout  # optional delay to savor the moment
 	current_level_index += 1
-	load_level("res://levels/Level2.tscn")
+	load_current_level()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:

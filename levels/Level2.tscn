@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://bavjlxbn3r18w" path="res://scenes/coin.tscn" id="2_c2jn2"]
 [ext_resource type="PackedScene" uid="uid://bohhmp6ep24c4" path="res://scenes/OceanLineBlue.tscn" id="3_eh7iy"]
 
-[node name="Level1" type="Node2D"]
+[node name="Level2" type="Node2D"]
 
 [node name="TileMap" parent="." instance=ExtResource("1_q2lhd")]
 position = Vector2(30, 3)
