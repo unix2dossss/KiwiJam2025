@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://dqt0se3rnvh1y"]
+[gd_scene load_steps=5 format=3 uid="uid://dqt0se3rnvh1y"]
 
 [ext_resource type="PackedScene" uid="uid://c0l7rkxapffuv" path="res://levels/TileMap.tscn" id="1_11ac5"]
 [ext_resource type="PackedScene" uid="uid://b1g1y13mye43v" path="res://scenes/OceanLinePurple.tscn" id="2_r8psn"]
+[ext_resource type="PackedScene" uid="uid://dqj1i825y36wu" path="res://scenes/killzone.tscn" id="3_r8psn"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_r8psn"]
 
 [node name="Level3" type="Node2D"]
 
@@ -20,3 +23,9 @@ position = Vector2(18, 597)
 position = Vector2(545, 569)
 
 [node name="OceanLinePurple" parent="." instance=ExtResource("2_r8psn")]
+
+[node name="Killzone" parent="." instance=ExtResource("3_r8psn")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
+position = Vector2(143, 648)
+shape = SubResource("WorldBoundaryShape2D_r8psn")

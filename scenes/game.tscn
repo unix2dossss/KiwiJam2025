@@ -30,6 +30,8 @@ position = Vector2(73, 62)
 [node name="Camera2D" type="Camera2D" parent="HBoxContainer/SubViewportContainer/SubViewport/Player"]
 texture_filter = 1
 zoom = Vector2(4, 4)
+limit_bottom = 720
+limit_smoothed = true
 
 [node name="LevelRoot" type="Node2D" parent="HBoxContainer/SubViewportContainer/SubViewport"]
 
@@ -49,6 +51,8 @@ position = Vector2(580, 0)
 [node name="Camera2D" type="Camera2D" parent="HBoxContainer/SubViewportContainer2/SubViewport2/Player2"]
 texture_filter = 1
 zoom = Vector2(4, 4)
+limit_bottom = 720
+limit_smoothed = true
 
 [node name="StringDrawer" parent="." instance=ExtResource("2_lbhrr")]
 visible = false
