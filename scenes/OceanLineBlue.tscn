@@ -1,0 +1,152 @@
+[gd_scene load_steps=2 format=3 uid="uid://bohhmp6ep24c4"]
+
+[ext_resource type="PackedScene" uid="uid://bb7gfts7wrbdr" path="res://scenes/oceanblue.tscn" id="1_cus24"]
+
+[node name="Ocean" type="Node"]
+
+[node name="Ocean1" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(54, 627)
+
+[node name="Ocean42" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(38, 627)
+
+[node name="Ocean43" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(22, 627)
+
+[node name="Ocean44" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(6, 627)
+
+[node name="Ocean45" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(-10, 627)
+
+[node name="Ocean46" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(-26, 627)
+
+[node name="Ocean47" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(-42, 627)
+
+[node name="Ocean48" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(-58, 627)
+
+[node name="Ocean49" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(-74, 627)
+
+[node name="Ocean2" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(70, 627)
+
+[node name="Ocean3" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(86, 627)
+
+[node name="Ocean4" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(102, 627)
+
+[node name="Ocean5" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(118, 627)
+
+[node name="Ocean6" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(134, 627)
+
+[node name="Ocean7" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(150, 627)
+
+[node name="Ocean8" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(166, 627)
+
+[node name="Ocean9" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(182, 627)
+
+[node name="Ocean10" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(198, 627)
+
+[node name="Ocean11" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(214, 627)
+
+[node name="Ocean12" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(230, 627)
+
+[node name="Ocean13" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(246, 627)
+
+[node name="Ocean14" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(262, 627)
+
+[node name="Ocean15" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(278, 627)
+
+[node name="Ocean16" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(294, 627)
+
+[node name="Ocean17" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(310, 627)
+
+[node name="Ocean18" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(326, 627)
+
+[node name="Ocean19" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(342, 627)
+
+[node name="Ocean20" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(358, 627)
+
+[node name="Ocean21" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(374, 627)
+
+[node name="Ocean22" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(390, 627)
+
+[node name="Ocean23" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(406, 627)
+
+[node name="Ocean24" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(422, 627)
+
+[node name="Ocean25" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(438, 627)
+
+[node name="Ocean26" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(454, 627)
+
+[node name="Ocean27" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(470, 627)
+
+[node name="Ocean28" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(486, 627)
+
+[node name="Ocean29" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(502, 627)
+
+[node name="Ocean30" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(518, 627)
+
+[node name="Ocean31" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(534, 627)
+
+[node name="Ocean32" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(550, 627)
+
+[node name="Ocean33" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(566, 627)
+
+[node name="Ocean34" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(582, 627)
+
+[node name="Ocean35" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(598, 627)
+
+[node name="Ocean36" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(614, 627)
+
+[node name="Ocean37" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(630, 627)
+
+[node name="Ocean38" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(646, 627)
+
+[node name="Ocean39" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(662, 627)
+
+[node name="Ocean40" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(678, 627)
+
+[node name="Ocean41" parent="." instance=ExtResource("1_cus24")]
+position = Vector2(694, 627)

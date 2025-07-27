@@ -1,0 +1,221 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1g1y13mye43v"]
+
+[ext_resource type="PackedScene" uid="uid://ns2wng8elug5" path="res://scenes/oceanpurple.tscn" id="2_qig4l"]
+
+[node name="OceanLinePurple" type="Node"]
+
+[node name="OceanPurple" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(-67, 627)
+
+[node name="OceanPurple2" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(-51, 627)
+
+[node name="OceanPurple3" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(-35, 627)
+
+[node name="OceanPurple4" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(-19, 627)
+
+[node name="OceanPurple5" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(-3, 627)
+
+[node name="OceanPurple6" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(13, 627)
+
+[node name="OceanPurple7" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(29, 627)
+
+[node name="OceanPurple8" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(45, 627)
+
+[node name="OceanPurple9" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(61, 627)
+
+[node name="OceanPurple10" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(77, 627)
+
+[node name="OceanPurple11" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(93, 627)
+
+[node name="OceanPurple12" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(109, 627)
+
+[node name="OceanPurple13" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(125, 627)
+
+[node name="OceanPurple14" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(141, 627)
+
+[node name="OceanPurple15" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(157, 627)
+
+[node name="OceanPurple16" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(173, 627)
+
+[node name="OceanPurple17" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(189, 627)
+
+[node name="OceanPurple18" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(205, 627)
+
+[node name="OceanPurple19" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(221, 627)
+
+[node name="OceanPurple20" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(237, 627)
+
+[node name="OceanPurple21" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(253, 627)
+
+[node name="OceanPurple22" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(269, 627)
+
+[node name="OceanPurple23" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(285, 627)
+
+[node name="OceanPurple24" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(301, 627)
+
+[node name="OceanPurple25" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(317, 627)
+
+[node name="OceanPurple26" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(333, 627)
+
+[node name="OceanPurple27" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(349, 627)
+
+[node name="OceanPurple28" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(365, 627)
+
+[node name="OceanPurple29" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(381, 627)
+
+[node name="OceanPurple30" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(397, 627)
+
+[node name="OceanPurple31" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(413, 627)
+
+[node name="OceanPurple32" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(429, 627)
+
+[node name="OceanPurple33" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(445, 627)
+
+[node name="OceanPurple34" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(461, 627)
+
+[node name="OceanPurple35" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(477, 627)
+
+[node name="OceanPurple36" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(493, 627)
+
+[node name="OceanPurple37" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(509, 627)
+
+[node name="OceanPurple38" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(525, 627)
+
+[node name="OceanPurple39" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(541, 627)
+
+[node name="OceanPurple40" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(557, 627)
+
+[node name="OceanPurple41" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(573, 627)
+
+[node name="OceanPurple42" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(589, 627)
+
+[node name="OceanPurple43" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(605, 627)
+
+[node name="OceanPurple44" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(621, 627)
+
+[node name="OceanPurple45" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(637, 627)
+
+[node name="OceanPurple46" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(653, 627)
+
+[node name="OceanPurple47" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(669, 627)
+
+[node name="OceanPurple48" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(685, 627)
+
+[node name="OceanPurple49" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(317, 627)
+
+[node name="OceanPurple50" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(333, 627)
+
+[node name="OceanPurple51" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(349, 627)
+
+[node name="OceanPurple52" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(365, 627)
+
+[node name="OceanPurple53" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(381, 627)
+
+[node name="OceanPurple54" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(397, 627)
+
+[node name="OceanPurple55" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(413, 627)
+
+[node name="OceanPurple56" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(429, 627)
+
+[node name="OceanPurple57" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(445, 627)
+
+[node name="OceanPurple58" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(461, 627)
+
+[node name="OceanPurple59" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(477, 627)
+
+[node name="OceanPurple60" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(493, 627)
+
+[node name="OceanPurple61" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(509, 627)
+
+[node name="OceanPurple62" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(525, 627)
+
+[node name="OceanPurple63" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(541, 627)
+
+[node name="OceanPurple64" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(557, 627)
+
+[node name="OceanPurple65" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(573, 627)
+
+[node name="OceanPurple66" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(589, 627)
+
+[node name="OceanPurple67" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(605, 627)
+
+[node name="OceanPurple68" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(621, 627)
+
+[node name="OceanPurple69" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(637, 627)
+
+[node name="OceanPurple70" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(653, 627)
+
+[node name="OceanPurple71" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(669, 627)
+
+[node name="OceanPurple72" parent="." instance=ExtResource("2_qig4l")]
+position = Vector2(685, 627)
