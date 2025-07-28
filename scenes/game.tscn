@@ -56,7 +56,7 @@ limit_smoothed = true
 
 [node name="StringDrawer" parent="." instance=ExtResource("2_lbhrr")]
 visible = false
-position = Vector2(73, 62)
+position = Vector2(73, 28)
 
 [node name="ColorRect" type="ColorRect" parent="."]
 z_index = 6

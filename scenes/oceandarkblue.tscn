@@ -1,0 +1,80 @@
+[gd_scene load_steps=11 format=3 uid="uid://j0x1vqpsp2n6"]
+
+[ext_resource type="Texture2D" uid="uid://nc7o03oparji" path="res://assets/fourSeasonsPlatformer_ [tileset, version 2.0]/fourSeasonsPlatformer_ [tileset, version 2.0]/foreground_/foreground_.png" id="1_80uhr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_80uhr"]
+atlas = ExtResource("1_80uhr")
+region = Rect2(0, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_li44y"]
+atlas = ExtResource("1_80uhr")
+region = Rect2(16, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_do0o8"]
+atlas = ExtResource("1_80uhr")
+region = Rect2(32, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wpqj2"]
+atlas = ExtResource("1_80uhr")
+region = Rect2(48, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_meftj"]
+atlas = ExtResource("1_80uhr")
+region = Rect2(64, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x7sji"]
+atlas = ExtResource("1_80uhr")
+region = Rect2(80, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wwt56"]
+atlas = ExtResource("1_80uhr")
+region = Rect2(96, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fxpab"]
+atlas = ExtResource("1_80uhr")
+region = Rect2(112, 48, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_46w5d"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_80uhr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_li44y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_do0o8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wpqj2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_meftj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x7sji")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wwt56")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fxpab")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="OceanDarkBlue" type="Area2D"]
+texture_filter = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -8)
+sprite_frames = SubResource("SpriteFrames_46w5d")
+autoplay = "default"
+frame_progress = 0.0647868
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+texture_filter = 1

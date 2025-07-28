@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://cm0wncjcthhpl"]
+[gd_scene load_steps=7 format=3 uid="uid://cm0wncjcthhpl"]
 
 [ext_resource type="PackedScene" uid="uid://c0l7rkxapffuv" path="res://levels/TileMap.tscn" id="1_q2lhd"]
 [ext_resource type="PackedScene" uid="uid://bavjlxbn3r18w" path="res://scenes/coin.tscn" id="2_c2jn2"]
 [ext_resource type="PackedScene" uid="uid://bohhmp6ep24c4" path="res://scenes/OceanLineBlue.tscn" id="3_eh7iy"]
 [ext_resource type="PackedScene" uid="uid://dqj1i825y36wu" path="res://scenes/killzone.tscn" id="4_1hrej"]
+[ext_resource type="PackedScene" uid="uid://msi5vmlv14y8" path="res://scenes/boonana.tscn" id="5_wnytt"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_1hrej"]
 
@@ -51,3 +52,6 @@ position = Vector2(164, 646)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
 shape = SubResource("WorldBoundaryShape2D_1hrej")
+
+[node name="Boonana" parent="." instance=ExtResource("5_wnytt")]
+position = Vector2(361, 594)

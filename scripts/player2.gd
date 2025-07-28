@@ -1,8 +1,10 @@
 extends CharacterBody2D
 
-@export var speed: float = 200.0
-@export var jump_velocity: float = -400.0
-@export var gravity: float = 1000.0
+@export var speed: float = 100.0
+@export var jump_velocity: float = -350.0
+@export var gravity: float = 800.0
+
+@onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
 
 func _physics_process(delta):
 	# Apply gravity
@@ -12,6 +14,13 @@ func _physics_process(delta):
 		# Jump
 		if Input.is_action_just_pressed("up1"):
 			velocity.y = jump_velocity
+
+	var direction = Input.get_axis("left1", "right1")
+
+	if direction > 0:
+		animated_sprite.flip_h = false
+	elif direction < 0:
+		animated_sprite.flip_h = true
 
 	# Left/right movement
 	velocity.x = 0.0

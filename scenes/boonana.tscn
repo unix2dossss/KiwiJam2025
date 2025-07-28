@@ -1,0 +1,58 @@
+[gd_scene load_steps=8 format=3 uid="uid://msi5vmlv14y8"]
+
+[ext_resource type="Script" uid="uid://x8jrbn7a57ot" path="res://scripts/slime.gd" id="1_htdxx"]
+[ext_resource type="Texture2D" uid="uid://bq623gbt8i123" path="res://assets/Enemies/Boonana.png" id="2_htdxx"]
+[ext_resource type="PackedScene" uid="uid://dqj1i825y36wu" path="res://scenes/killzone.tscn" id="3_t73v1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yxld6"]
+atlas = ExtResource("2_htdxx")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t73v1"]
+atlas = ExtResource("2_htdxx")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_v5wyi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yxld6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t73v1")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_k6gtu"]
+radius = 3.55902
+height = 12.6023
+
+[node name="Boonana" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1_htdxx")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, -8)
+sprite_frames = SubResource("SpriteFrames_v5wyi")
+autoplay = "default"
+frame_progress = 0.680552
+
+[node name="Killzone" parent="." instance=ExtResource("3_t73v1")]
+position = Vector2(0, -6)
+rotation = -0.95644
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
+position = Vector2(4.76837e-07, -2.38419e-07)
+shape = SubResource("CapsuleShape2D_k6gtu")
+
+[node name="RayCastRight" type="RayCast2D" parent="."]
+position = Vector2(0, -5)
+target_position = Vector2(10, 0)
+
+[node name="RayCastLeft" type="RayCast2D" parent="."]
+position = Vector2(0, -5)
+target_position = Vector2(-9, 0)

@@ -5,7 +5,8 @@ extends Node2D
 var levels = [
 	"res://levels/Level1.tscn",
 	"res://levels/Level2.tscn",
-	"res://levels/Level3.tscn"
+	"res://levels/Level3.tscn",
+	"res://levels/Level4.tscn"
 ]
 
 var current_level_index = 0

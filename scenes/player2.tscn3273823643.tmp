@@ -1,0 +1,85 @@
+[gd_scene load_steps=12 format=3 uid="uid://dp5nowtpv127o"]
+
+[ext_resource type="Script" uid="uid://bjbg14dxkin40" path="res://scripts/player2.gd" id="1_agjl5"]
+[ext_resource type="Texture2D" uid="uid://bhnidf40geqp6" path="res://assets/sprites/knight.png" id="2_dj65e"]
+[ext_resource type="Texture2D" uid="uid://cejwwn5ga3otr" path="res://assets/Deiza.png" id="3_agjl5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g2els"]
+atlas = ExtResource("2_dj65e")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qhqgy"]
+atlas = ExtResource("2_dj65e")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dqkch"]
+atlas = ExtResource("2_dj65e")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qlg0r"]
+atlas = ExtResource("2_dj65e")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dj65e"]
+atlas = ExtResource("3_agjl5")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hb4is"]
+atlas = ExtResource("3_agjl5")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tuyoq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g2els")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qhqgy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dqkch")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qlg0r")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dj65e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hb4is")
+}],
+"loop": true,
+"name": &"player2idle",
+"speed": 3.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g2els"]
+size = Vector2(11, 15)
+
+[node name="Player2" type="CharacterBody2D"]
+z_index = 10
+texture_filter = 1
+collision_layer = 2
+script = ExtResource("1_agjl5")
+speed = null
+jump_velocity = null
+gravity = null
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = 5
+texture_filter = 1
+position = Vector2(1, -7)
+sprite_frames = SubResource("SpriteFrames_tuyoq")
+animation = &"player2idle"
+autoplay = "player2idle"
+frame_progress = 0.226032
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, -7.5)
+shape = SubResource("RectangleShape2D_g2els")
