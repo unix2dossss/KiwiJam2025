@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="KiwiJam"
-run/main_scene="uid://dx8j4gpd5pgkm"
+run/main_scene="uid://b1mt2x0yb7h87"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 

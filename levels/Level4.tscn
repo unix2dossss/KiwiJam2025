@@ -1,12 +1,13 @@
-[gd_scene load_steps=5 format=3 uid="uid://dwjug7cj2t7gb"]
+[gd_scene load_steps=6 format=3 uid="uid://dwjug7cj2t7gb"]
 
 [ext_resource type="PackedScene" uid="uid://c0l7rkxapffuv" path="res://levels/TileMap.tscn" id="1_kn5nt"]
 [ext_resource type="PackedScene" uid="uid://dqj1i825y36wu" path="res://scenes/killzone.tscn" id="3_5d720"]
 [ext_resource type="PackedScene" uid="uid://ncuq37t0gg8w" path="res://scenes/OceanLineDBlue.tscn" id="3_kn5nt"]
+[ext_resource type="PackedScene" uid="uid://bavjlxbn3r18w" path="res://scenes/coin.tscn" id="4_xdnvt"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_r8psn"]
 
-[node name="Level3" type="Node2D"]
+[node name="Level4" type="Node2D"]
 
 [node name="TileMap" parent="." instance=ExtResource("1_kn5nt")]
 position = Vector2(26, 3)
@@ -29,3 +30,24 @@ position = Vector2(143, 648)
 shape = SubResource("WorldBoundaryShape2D_r8psn")
 
 [node name="OceanLinePurple" parent="." instance=ExtResource("3_kn5nt")]
+
+[node name="Coin" parent="." instance=ExtResource("4_xdnvt")]
+position = Vector2(74.3035, 536.979)
+
+[node name="Coin2" parent="." instance=ExtResource("4_xdnvt")]
+position = Vector2(210.99, 488.929)
+
+[node name="Coin3" parent="." instance=ExtResource("4_xdnvt")]
+position = Vector2(354.674, 519.252)
+
+[node name="Coin4" parent="." instance=ExtResource("4_xdnvt")]
+position = Vector2(530.081, 591.56)
+
+[node name="Coin5" parent="." instance=ExtResource("4_xdnvt")]
+position = Vector2(289.83, 580.364)
+
+[node name="Coin6" parent="." instance=ExtResource("4_xdnvt")]
+position = Vector2(161.074, 600.89)
+
+[node name="Coin7" parent="." instance=ExtResource("4_xdnvt")]
+position = Vector2(64.9734, 600.424)
