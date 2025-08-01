@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://b1mt2x0yb7h87"]
 
 [ext_resource type="Script" uid="uid://04x1jkvmt3y" path="res://scenes/cutscene.gd" id="1_a320b"]
-[ext_resource type="VideoStream" uid="uid://gb6t2ldj6tcd" path="res://assets/Cutscene.ogv" id="1_edmg7"]
+[ext_resource type="VideoStream" uid="uid://dgoxpekayp1w8" path="res://assets/CutsceneV2.ogv" id="2_a320b"]
 
 [node name="Cutscene" type="Control"]
 layout_mode = 3
@@ -17,7 +17,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-stream = ExtResource("1_edmg7")
+stream = ExtResource("2_a320b")
 autoplay = true
 expand = true
 
