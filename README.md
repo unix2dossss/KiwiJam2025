@@ -4,11 +4,13 @@
 
 
 
+https://github.com/user-attachments/assets/fa4bf800-4690-4fd0-b9cd-c2cf649f360c
+
+
+
 🔗 [Play the Game](https://unix2dos.itch.io/string-theory)
 
----
-
-#### My Very First Game - Made in 48 Hours for KiwiJam 2025!
+### My Very First Game - Made in 48 Hours for KiwiJam 2025!
 
 The theme of the jam was **"Connections"**, which inspired the idea of two characters tethered by an invisible thread across separate realms.
 
@@ -16,9 +18,8 @@ I built this solo, and it’s my very first real dive into game development. I h
 
 While I wasn’t able to fully finish the game in time, and some mechanics are still rough around the edges, I’m really proud of how far it got in just two days.
 
----
 
-#### Screenshots
+### Screenshots
 
 <p float="left">
   <img src="./readme-images/CoverImage1.png" width="48%" />
@@ -32,9 +33,8 @@ While I wasn’t able to fully finish the game in time, and some mechanics are s
   <img src="./readme-images/Level5.png" width="48%" />
 </p>
 
----
 
-#### Tileset Credits
+### Tileset Credits
 
 **Four Seasons Platformer Tileset** by *Kevin’s Mom’s House*, based on the original by **RottingPixelsUsed**, used under free licenses.
 
